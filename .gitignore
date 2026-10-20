@@ -430,5 +430,7 @@ FodyWeavers.xsd
 **/bin/
 **/obj/
 .vs/
-**/correo.local.json
 **/Datos/
+/Pruebas/
+**/correo.local.json
+.serena/

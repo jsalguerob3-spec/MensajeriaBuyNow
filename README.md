@@ -10,7 +10,7 @@ Abrí MensajeriaBuyNow.slnx en Visual Studio y seleccioná CapaPresentacion como
 dotnet run --project MensajeriaBuyNow/CapaPresentacion.csproj
 ```
 
-Copiá MensajeriaBuyNow/correo.ejemplo.json como correo.local.json en la misma carpeta y completá ApiKey con tu clave de Brevo. Se copia a la carpeta de ejecución al compilar. El remitente configurado es BuyNow <no-reply@buynow.org.uk>. La configuración local está excluida de Git.
+La configuración de correo se guarda en MensajeriaBuyNow/correo.local.json y se copia a la carpeta de ejecución al compilar. La clave se conserva localmente y no se publica en el repositorio. El remitente configurado es BuyNow <no-reply@buynow.org.uk>.
 
 ## Demostración
 
